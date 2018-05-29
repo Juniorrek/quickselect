@@ -115,7 +115,7 @@ void imprime_lista(lista *l) {
 }
 
 int *QuickSelect(int *v, int a, int b) {
-	int k = 3;
+	int k = 9;
 	if (b - a + 1 < k) {//0 10
 		Selecao(v, a, b);
 		return v;
